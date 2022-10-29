@@ -6,15 +6,15 @@
 // virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0
 //
 
-#include "buf.h"
-#include "defs.h"
-#include "fs.h"
-#include "memlayout.h"
-#include "param.h"
-#include "riscv.h"
-#include "sleeplock.h"
-#include "spinlock.h"
 #include "types.h"
+#include "riscv.h"
+#include "defs.h"
+#include "param.h"
+#include "memlayout.h"
+#include "spinlock.h"
+#include "sleeplock.h"
+#include "fs.h"
+#include "buf.h"
 #include "virtio.h"
 
 // the address of virtio mmio register r.

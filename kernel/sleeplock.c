@@ -1,14 +1,13 @@
 // Sleeping locks
 
-#include "sleeplock.h"
-
-#include "defs.h"
-#include "memlayout.h"
-#include "param.h"
-#include "proc.h"
-#include "riscv.h"
-#include "spinlock.h"
 #include "types.h"
+#include "riscv.h"
+#include "defs.h"
+#include "param.h"
+#include "memlayout.h"
+#include "spinlock.h"
+#include "proc.h"
+#include "sleeplock.h"
 
 void initsleeplock(struct sleeplock *lk, char *name) {
   initlock(&lk->lk, "sleep lock");

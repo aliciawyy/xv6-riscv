@@ -1,8 +1,8 @@
-#include <stdarg.h>
-
-#include "kernel/stat.h"
 #include "kernel/types.h"
+#include "kernel/stat.h"
 #include "user/user.h"
+
+#include <stdarg.h>
 
 static char digits[] = "0123456789ABCDEF";
 

@@ -1,8 +1,8 @@
-#include "defs.h"
-#include "memlayout.h"
-#include "param.h"
-#include "riscv.h"
 #include "types.h"
+#include "param.h"
+#include "memlayout.h"
+#include "riscv.h"
+#include "defs.h"
 
 volatile static int started = 0;
 
